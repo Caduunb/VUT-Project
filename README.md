@@ -18,7 +18,8 @@ The main problems that were encountered were on preparing the dataset for traini
 
 So using Deep Learning really was a good to approach the problem without much previous knowledge.
 
-*Tensorflow OD API*
+### Tensorflow Object Detection API (TFODAPI)
+
 I learned to prepare the dataset, creating the TFRecord file.
 There are other ways to make it. But, the way I know:
 
@@ -31,13 +32,13 @@ There are other ways to make it. But, the way I know:
 This file will be used as input for the script that creates the TFRecordfile.
 An example file can be found on my github, in the repository VUT Project.
 
-### Where is the codes and information?
+### Where are the codes and information?
 On my [github](https://github.com/Caduunb), inside the repository VUT Project.
 
 ### What is missing.
 
-0. Understand why the classification model is stuck on the same accuracy it starts the training with.
-1. Object Detection model.
+1. Understand why the classification model is stuck on the same accuracy it starts the training with.
+2. Object Detection model.
 
 ### References
 1. Series of videos from Andrew Ng on [Youtube](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
