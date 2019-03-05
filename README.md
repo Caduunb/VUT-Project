@@ -3,8 +3,9 @@ Image processing using Deep Learning
 
 ## Content
 
-1. <a href="### Present work."> Relatórios </a>
-2. <a href="### Tensorflow Object Detection API (TFODAPI)"> TFODAPI </a>
+1. Where it was left
+1. Classification Model
+2. TFODAPI
 
 ## Technical Report (tutorial)
 
