@@ -1,4 +1,4 @@
-# Author: Caio E.C. Oliveira (ceco@aluno.unb.br)
+# Author: Caio E.C. Oliveira (github.com/caduunb), Mechatronics Engineering Student at University of Brasilia, Brazil.
 # This file is used to feed the create_tfRecordFile.py
 # It contains all the information necessary for the script to create the .record file, required by the TF Object Detection API.
 - boxes:
