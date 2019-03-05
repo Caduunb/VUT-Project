@@ -4,8 +4,16 @@ Load all images and labels in two lists and save them in a Dataset file to be lo
 
 ---
 February 7, 2019
-Authors:    Sangeeta Biswas
-            Caio Oliveira (github.com/caduunb)
+	authors: 
+		Caio E. C. Oliveira, ceco.unb@gmail.com
+		Sangeeta Biswas
+	usage:
+		python3 create_dataset.py
+	purpose: 
+		Prepare Dataset for training a classification Neural Network model.
+		Load all images and labels in two lists and save them in a Dataset file to be loaded by the classification model
+	version: 
+		Python 3.6.7, tensorflow 1.12
 """
 
 #   Load Modules
