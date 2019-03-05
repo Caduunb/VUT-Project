@@ -1,0 +1,24 @@
+- boxes:
+  - {label: "macula", occluded: false, x_max: 711.729166577, x_min: 583.6708332598,
+    y_max: 381.2645832853, y_min: 275.166666632}
+  path: "/home/linux-mint/Desktop/TFRecord_Dataset/20_right.jpeg"
+
+- boxes:
+  - {label: "macula", occluded: false, x_max: 436.562499945, x_min: 334.9624999578,
+    y_max: 396.0812499501, y_min: 282.5749999644}
+  path: "/home/linux-mint/Desktop/TFRecord_Dataset/20_left.jpeg"
+
+- boxes:
+  - {label: "macula", occluded: false, x_max: 729.4562499081, x_min: 525.7270832671,
+    y_max: 463.0208332750, y_min: 296.8624999626}
+  path: "/home/linux-mint/Desktop/TFRecord_Dataset/17_left.jpeg"
+
+- boxes:
+  - {label: "macula", occluded: false, x_max: 382.5874999518, x_min: 306.3874999614,
+    y_max: 296.8624999626, y_min: 218.2812499725}
+  path: "/home/linux-mint/Desktop/TFRecord_Dataset/13_left.jpeg"
+
+- boxes:
+  - {label: "macula", occluded: false, x_max: 405.60624994890003, x_min: 306.3874999614,
+    y_max: 305.5937499615, y_min: 202.4062499745}
+  path: "/home/linux-mint/Desktop/TFRecord_Dataset/13_right.jpeg"
