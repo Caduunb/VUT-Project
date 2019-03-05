@@ -1,3 +1,6 @@
+# Author: Caio E.C. Oliveira (ceco@aluno.unb.br)
+# This file is used to feed the create_tfRecordFile.py
+# It contains all the information necessary for the script to create the .record file, required by the TF Object Detection API.
 - boxes:
   - {label: "macula", occluded: false, x_max: 711.729166577, x_min: 583.6708332598,
     y_max: 381.2645832853, y_min: 275.166666632}
