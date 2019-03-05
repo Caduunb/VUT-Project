@@ -1,7 +1,7 @@
 """
 March 4, 2019
 	author: 
-		Caio E. C. Oliveira, github.com/caduunb
+		Caio E. C. Oliveira (github.com/caduunb), Mecatronics Engineering Student at University of Brasilia, Brazil.
 	usage:
 		python create_tfRecordFile.py --output_path example.record
 	purpose: 
