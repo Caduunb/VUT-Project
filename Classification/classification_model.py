@@ -1,16 +1,18 @@
 """
+March 4, 2019
 	authors: 
-		Caio E. C. Oliveira, ceco.unb@gmail.com
-		Sangeeta Biswas
-	last update:
-		March 4, 2019, val_acc 63.5% on all 5 DRs.
+		Caio E. C. Oliveira (github.com/caduunb), Mechatronics Engineering Student at University of Brasilia.
+		Sangeeta Biswas, Post-Doc Researcher at Brno University of Technology, Czech Republic
 	usage:
 		python3 classification_model.py --logdir="<PATH/TO/LOGS/>"
 	purpose: 
 		Training a convolutional neural network on 5 types of Diabetic Retinopathy classification.
 	version: 
 		Python 3.6.7, tensorflow 1.12
+	note:
+		The model performs at 63.5% validation accuracy.
 """
+
 # 	Modules
 # ---
 import tensorflow as tf
