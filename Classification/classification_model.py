@@ -3,12 +3,11 @@
 		Caio E. C. Oliveira, ceco.unb@gmail.com
 		Sangeeta Biswas
 	last update:
-    March 4, 2019, val_acc 63.5% on all 5 DRs.
-  usage:
-    python3 classification_model.py --logdir="<PATH/TO/LOGS/>"
+		March 4, 2019, val_acc 63.5% on all 5 DRs.
+	usage:
+		python3 classification_model.py --logdir="<PATH/TO/LOGS/>"
 	purpose: 
-		Train a convolutional neural network
-for Mild and Proliferative DR classification.
+		Training a convolutional neural network on 5 types of Diabetic Retinopathy classification.
 	version: 
 		Python 3.6.7, tensorflow 1.12
 """
