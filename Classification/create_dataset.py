@@ -1,8 +1,4 @@
 """
-Purpose: prepare Dataset for training a classification Neural Network model
-Load all images and labels in two lists and save them in a Dataset file to be loaded by the model
-
----
 February 7, 2019
 	authors: 
 		Caio E. C. Oliveira, ceco.unb@gmail.com
