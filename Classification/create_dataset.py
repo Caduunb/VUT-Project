@@ -1,8 +1,8 @@
 """
 February 7, 2019
 	authors: 
-		Caio E. C. Oliveira, ceco.unb@gmail.com
-		Sangeeta Biswas
+		Caio E. C. Oliveira (github.com/caduunb), Mechatronics Engineering Student at University of Brasilia.
+		Sangeeta Biswas, Post-Doc Researcher at Brno University of Technology, Czech Republic
 	usage:
 		python3 create_dataset.py
 	purpose: 
