@@ -42,6 +42,7 @@ On my [github](https://github.com/Caduunb), inside the repository VUT Project.
 
 ### References
 1. Series of videos from Andrew Ng on [Youtube](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
+1. Series of videos from Geofrey Hinton, et al, on [Youtube](https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9\)
 2. [Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/). 
 3. Coursera [*Neural Networks and deep learning*](https://www.coursera.org/learn/neural-networks-deep-learning)
 4. Coursera [*Machine Learning*](https://www.coursera.org/learn/machine-learning/home/welcome)
