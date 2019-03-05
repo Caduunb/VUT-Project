@@ -50,13 +50,10 @@ On my [github](https://github.com/Caduunb), inside the repository VUT Project.
 1. Series of videos from Geofrey Hinton, et al, on [Youtube](https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9\)
 2. [Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/). 
 3. Coursera [*Neural Networks and deep learning*](https://www.coursera.org/learn/neural-networks-deep-learning)
-4. Coursera [*Machine Learning*](https://www.coursera.org/learn/machine-learning/home/welcome)
-5. ANNs, a simple pdf [presentation](http://pages.cs.wisc.edu/~dpage/cs760/ANNs.pdf)
-6. Goodfellow's [book](http://www.deeplearningbook.org/)
+4. Coursera [*Machine Learning*](https://www.coursera.org/learn/machine-learning/home/welcome)6. Goodfellow's [book](http://www.deeplearningbook.org/)
 7. Yoshua Bengo's [book](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
 8. Tensorflow's [online tutorials](https://www.tensorflow.org/tutorials/)
-9. Articles [Springer](https://link.springer.com/)
-10. Articles IEEExplore
-11. Tensorflow Object Detection API (https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-1-selecting-a-model-a02b6aabe39e)
-13. Reference people to follow on ML/Deep Learning: Andrew Ng, Hinton, ?, ?
+11. Tensorflow Object Detection API, Blog Medium (https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-1-selecting-a-model-a02b6aabe39e)
 14. Google AI [blog about Tensorflow O. Detection API](https://ai.googleblog.com/2017/06/supercharge-your-computer-vision-models.html)
+9. Some good journals: [Springer](https://link.springer.com/), [IEEExplore](https://ieeexplore.ieee.org/Xplore/home.jsp), [Elsevier](https://www.elsevier.com/)
+13. Reference people to follow on ML/Deep Learning: Andrew Ng, Hinton
