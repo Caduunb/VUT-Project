@@ -1,8 +1,7 @@
 """
-February 7, 2019
-  authors: 
-		Caio E. C. Oliveira, ceco.unb@gmail.com
-		Sangeeta Biswas
+March 4, 2019
+	author: 
+		Caio E. C. Oliveira, github.com/caduunb
 	usage:
 		python create_tfRecordFile.py --output_path example.record
 	purpose: 
