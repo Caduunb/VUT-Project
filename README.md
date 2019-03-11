@@ -24,19 +24,37 @@ The main problems that were encountered were on preparing the dataset for traini
 
 So using Deep Learning really was a good to approach the problem without much previous knowledge.
 
-### Tensorflow Object Detection API (TFODAPI)
+## Tensorflow Object Detection API (TFODAPI)
 
-I learned to prepare the dataset, creating the TFRecord file.
-There are other ways to make it. But, the way I know:
+## Prepare Dataset
 
-1. Create a .yaml extension file, which is simply a plain text with .yaml at the end.
-2. On this file, there should contain all information about the image bouding box:
-    * Label
-    * (x_min, y_min, x_max, y_max)
-    * absolute path for the image (/home/user/example/example.jpeg)
+There are other ways to make it. But, the way I learned:
+
+### 1. Create a .yaml extension file. 
+
+It is simply a plain text with .yaml at the end. On this file ([example](https://github.com/Caduunb/VUT-Project/blob/master/TFODAPI/tfodapi_dataset_test.yaml)), there should contain all information about the image bouding box:
+
+* Label (e.g, 'ball')
+* Coordinates (x_min, y_min, x_max, y_max)
+* Absolute path for the image (/home/user/example/example.jpeg)
 
 This file will be used as input for the script that creates the TFRecordfile.
-An example file can be found on my github, in the repository VUT Project.
+
+**Easy way to create the .yaml**
+
+There's a [script](https://github.com/Caduunb/VUT-Project/blob/master/TFODAPI/create_yaml.py) which takes the path of the images you want to label, and creates a .yaml file afterwards. All you have to change inside the file is the path to images, and the output .yaml file path.
+
+### 2. Create .record extension file.
+
+This file is needed as input for the Tensorflow Object Detection API. There's a [script](https://github.com/Caduunb/VUT-Project/blob/master/TFODAPI/create_tfRecordFile.py) that creates a .record file with the information provided by the .yaml file.
+
+After creating the .record extension file, you're good to go to the training session. Remember to create both training.record and validation.record.
+
+## Train your model
+
+This is where I stopped. 
+
+Add references to tutorials on training TFODAPI.
 
 ### Where are the codes and information?
 On my [github](https://github.com/Caduunb), inside the repository VUT Project.
