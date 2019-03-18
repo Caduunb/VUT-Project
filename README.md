@@ -28,6 +28,27 @@ The main problems that were encountered were on preparing the dataset for traini
 
 So using Deep Learning really was a good to approach the problem without much previous knowledge on image processing.
 
+### Where are the codes and information?
+On my [github](https://github.com/Caduunb), inside the repository VUT Project.
+
+### What is missing.
+
+1. Understand why the classification model is stuck on the same accuracy it starts the training with.
+2. Object Detection model.
+
+### References
+1. Series of videos from Andrew Ng on [Youtube](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
+1. Series of videos from Geofrey Hinton, et al, on [Youtube](https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9\)
+2. [Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/). 
+3. Coursera [*Neural Networks and deep learning*](https://www.coursera.org/learn/neural-networks-deep-learning)
+4. Coursera [*Machine Learning*](https://www.coursera.org/learn/machine-learning/home/welcome)6. Goodfellow's [book](http://www.deeplearningbook.org/)
+7. Yoshua Bengo's [book](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
+8. Tensorflow's [online tutorials](https://www.tensorflow.org/tutorials/)
+11. Tensorflow Object Detection API, Blog Medium (https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-1-selecting-a-model-a02b6aabe39e)
+14. Google AI [blog about Tensorflow O. Detection API](https://ai.googleblog.com/2017/06/supercharge-your-computer-vision-models.html)
+9. Some good journals: [Springer](https://link.springer.com/), [IEEExplore](https://ieeexplore.ieee.org/Xplore/home.jsp), [Elsevier](https://www.elsevier.com/)
+13. Reference people to follow on ML/Deep Learning: Andrew Ng, Hinton
+
 # Classification Model
 
 ## Prepare dataset
@@ -78,23 +99,3 @@ This is where I stopped.
 
 Add references to tutorials on training TFODAPI.
 
-### Where are the codes and information?
-On my [github](https://github.com/Caduunb), inside the repository VUT Project.
-
-### What is missing.
-
-1. Understand why the classification model is stuck on the same accuracy it starts the training with.
-2. Object Detection model.
-
-### References
-1. Series of videos from Andrew Ng on [Youtube](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
-1. Series of videos from Geofrey Hinton, et al, on [Youtube](https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9\)
-2. [Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015](http://neuralnetworksanddeeplearning.com/). 
-3. Coursera [*Neural Networks and deep learning*](https://www.coursera.org/learn/neural-networks-deep-learning)
-4. Coursera [*Machine Learning*](https://www.coursera.org/learn/machine-learning/home/welcome)6. Goodfellow's [book](http://www.deeplearningbook.org/)
-7. Yoshua Bengo's [book](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
-8. Tensorflow's [online tutorials](https://www.tensorflow.org/tutorials/)
-11. Tensorflow Object Detection API, Blog Medium (https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-1-selecting-a-model-a02b6aabe39e)
-14. Google AI [blog about Tensorflow O. Detection API](https://ai.googleblog.com/2017/06/supercharge-your-computer-vision-models.html)
-9. Some good journals: [Springer](https://link.springer.com/), [IEEExplore](https://ieeexplore.ieee.org/Xplore/home.jsp), [Elsevier](https://www.elsevier.com/)
-13. Reference people to follow on ML/Deep Learning: Andrew Ng, Hinton
