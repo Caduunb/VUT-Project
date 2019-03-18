@@ -1,19 +1,23 @@
-# VUT-Project
-Image processing using Deep Learning
+# Detection and classification of retinal images
+Image processing using Deep Learning on python3 Tensorflow API.
 
-## Content
+Author: Caio Eduardo Coelho de Oliveira, University of Brasília.
 
-1. Where it was left
-1. Classification Model
-2. TFODAPI
+Supervisor: Martin Drahanský, Brno University of Technology.
 
+### Content
+
+1. Empty
+
+---
 ## Technical Report (tutorial)
 
 ### Present work.
 
-1. Python code to load and [create the dataset](link to Github)
-2. Classifier model which detects all 4 diseases.
-3. Python code to automate the labeling process of the images prior to Object Detection. Almost 100% automated, except for the label
+1. Classification Model for 5 diabetic-retinopathy (DR) classes;
+1.1. How to use Tensorboard to visualize a model.
+2. Tensorflow Object Detection API (TFODAPI)
+2.1. How to prepare a TFODAPI dataset out of raw images.
 
 
 ### How it was made and why.
@@ -22,9 +26,25 @@ The whole project is made on Deep Learning using Tensorflow (1.12.0) because it 
 
 The main problems that were encountered were on preparing the dataset for training, because usually each deep learning API requires a different format of input, such as TFRecord file, on Tensorflow Object Detection API (add reference). One other common issue encountered was on fine tuning the model to get better accuracy.
 
-So using Deep Learning really was a good to approach the problem without much previous knowledge.
+So using Deep Learning really was a good to approach the problem without much previous knowledge on image processing.
 
-## Tensorflow Object Detection API (TFODAPI)
+# Classification Model
+
+## Prepare dataset
+
+The [create_dataset.py](https://github.com/Caduunb/VUT-Project/blob/master/Classification/create_dataset.py) script takes the path of images, then, as it goes through the folders, it labels and compresses all of them into a .npz file. There's a label dictionary named labelDict, so the user will not get lost on which number corresponds to which label.
+
+*Ideally, the classes would be saved in the correct order, {0: NoDR, 1: MildDR, 2: ModerateDR, 3: SevereDR, 4: ProliferativeDR}, but the script doesn't go through the folders in alphabetical order, which made it difficult to me to make it go in the order I wanted it to.*
+
+## Train your model
+
+You have to change the [model script's](https://github.com/Caduunb/VUT-Project/blob/master/Classification/classification_model.py) path to the .npz file.
+
+## Use Tensorboard to visualize 
+
+If you used pip to tensorflow on your computer, you will already have TensorBoard installed.
+
+# Tensorflow Object Detection API (TFODAPI)
 
 ## Prepare Dataset
 
@@ -42,7 +62,9 @@ This file will be used as input for the script that creates the TFRecordfile.
 
 **Easy way to create the .yaml**
 
-There's a [script](https://github.com/Caduunb/VUT-Project/blob/master/TFODAPI/create_yaml.py) which takes the path of the images you want to label, and creates a .yaml file afterwards. All you have to change inside the file is the path to images, and the output .yaml file path.
+There's a script named [create_yaml.py](https://github.com/Caduunb/VUT-Project/blob/master/TFODAPI/create_yaml.py) which takes the path of the images you want to label, prompts you a window for you to label them and then creates a .yaml file afterwards with all the bounding boxes information. All you have to change inside the file is the path to images, and the output .yaml file path.
+
+*Please note that the up to day, the script only works with 1 label. So every bounding box will be related to 1 single class, e.g., macula. If you will use 2 or more different classes (e.g., macula and optic disc), the script will have to updated for that.*
 
 ### 2. Create .record extension file.
 
