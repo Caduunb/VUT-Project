@@ -29,7 +29,7 @@ The main problems that were encountered were on preparing the dataset for traini
 So using Deep Learning really was a good to approach the problem without much previous knowledge on image processing.
 
 ### Where are the codes and information?
-On my [github](https://github.com/Caduunb), inside the repository VUT Project.
+On my [github](https://github.com/Caduunb/VUT-Project), inside the repository VUT Project.
 
 ### What is missing.
 
