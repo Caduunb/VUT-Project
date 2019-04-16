@@ -20,7 +20,7 @@ Supervisor: Martin Drahanský, Brno University of Technology.
 2.1. How to prepare a TFODAPI dataset out of raw images.
 
 
-### How it was made and why.
+### How it was made and why?
 
 The whole project is made on Deep Learning using Tensorflow (1.12.0) because it is a great way to deal with image processing without the need to understand deeply how image processing actually works. 
 
@@ -28,7 +28,10 @@ The main problems that were encountered were on preparing the dataset for traini
 
 So using Deep Learning really was a good to approach the problem without much previous knowledge on image processing.
 
-### Where are the codes and information?
+For more details on the classification or object detection models, search on this repository's Wiki.
+
+### Where is the code?
+
 On my [github](https://github.com/Caduunb/VUT-Project), inside the repository VUT Project.
 
 ### What is missing.
