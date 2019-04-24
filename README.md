@@ -5,18 +5,13 @@ Author: Caio Eduardo Coelho de Oliveira, University of Brasília.
 
 Supervisor: Martin Drahanský, Brno University of Technology.
 
-### Content
-
-1. Classification model
-2. Object Detection using Tensorflow Object Detection API (TFODAPI)
-
 ---
 ### Present work.
 
 1. Classification Model for 5 diabetic-retinopathy (DR) classes;
-1.1. How to use Tensorboard to visualize a model.
+    - How to use Tensorboard to visualize a model.
 2. Tensorflow Object Detection API (TFODAPI)
-2.1. How to prepare a TFODAPI dataset out of raw images.
+    - How to prepare a TFODAPI dataset out of raw images.
 
 
 ### How it was made and why?
