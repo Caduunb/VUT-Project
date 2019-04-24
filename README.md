@@ -7,11 +7,10 @@ Supervisor: Martin Drahanský, Brno University of Technology.
 
 ### Content
 
-1. Empty
+1. Classification model
+2. Object Detection using Tensorflow Object Detection API (TFODAPI)
 
 ---
-## Technical Report (tutorial)
-
 ### Present work.
 
 1. Classification Model for 5 diabetic-retinopathy (DR) classes;
